@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #421c57;
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

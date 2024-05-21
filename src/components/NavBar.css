@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+.nav-bar-container {
+  background-color: #270825;
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-welcome {
+  font-family: "Poetsen One";
+  color: white;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.search-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.searchbox {
+  width: 50%;
+  /* margin-right: 20px; */
+  font-size: 26px;
+  border-radius: 14px;
+}

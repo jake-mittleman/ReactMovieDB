@@ -1,0 +1,62 @@
+.movie-card-container {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.movie-card-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.ratings-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.plot-details {
+  text-align: justify;
+  max-width: 90%;
+}
+
+.movie-poster {
+  box-shadow: 0px 0px 10px 10px #cdcdcd;
+  margin-top: 20px;
+}
+
+.imdb-rating {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.rotten-tomatoes-rating {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.movie-card-title {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotten-tomatoes-icon {
+  width: 40px;
+}
+
+.imdb-icon {
+  width: 40px;
+}
